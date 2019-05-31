@@ -1,0 +1,105 @@
+.top-section {
+    background-color: #e0f2f1ff;
+    margin-bottom: 0px;
+}
+
+@media (min-width: 768px) {
+    .container-small {
+        width: 500px;
+    }
+    .container-large {
+        width: 970px;
+    } 
+} 
+@media (min-width: 992px) {
+    .container-small {
+        width: 500px;
+    }
+    .container-large {
+        width: 1170px;
+    } 
+} 
+@media (min-width: 1200px) {
+    .container-small {
+        width: 900px;
+    }
+    .container-large {
+        width: 1500px;
+    } 
+}
+
+.auto-vertical {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.auto-horizontal {
+    text-align: center
+}
+
+.container-small, .container-large {
+    max-width: 100%;
+}
+
+.title {
+    font-weight: bold;
+}
+
+.subtitle {
+    font-size: 27px;
+    margin-top: -15px
+}
+
+.content {
+    font-size: 18px;
+}
+
+.form {
+    background-color: white;
+    border-radius: 25px;
+}
+
+.form-content {
+    font-size: 24px;
+    padding-top: 20px;
+}
+
+.steps-title {
+    font-size: 18px;
+    padding-left: 20px
+}
+
+.industry-card-image {
+    max-width: 40%;
+    text-align: center
+}
+
+.no-border {
+    border: none;
+    padding-top: 10%;
+}
+
+.card-bullet {
+    font-size: 18px;
+    width: 80%;
+    margin: 0 auto;
+    list-style-type: none;
+}
+
+.card-bullet li {
+    padding-bottom: 10px;
+    color: #434343;
+}
+
+.section-title {
+    font-size: 26px;
+}
+
+.method-text {
+    font-size: 30px;
+    text-align: center
+}
+
+.bottom-section {
+    background-color: #FAFAFA;
+}
